@@ -1,64 +1,89 @@
 import { Container, Row, Col } from "react-bootstrap";
-import placeholderIcon from "../assets/placeholder.png";
-import callIcon from "../assets/call.png";
-import emailIcon from "../assets/message.png";
-
+import PlaceholderIcon from "../assets/placeholder.png";
+import CallIcon from "../assets/call.png";
+import MessageIcon from "../assets/message.png";
 const FooterComponent = () => {
   return (
-    <footer className="footer py-5 bg-light">
+    <div className="footer d-flex">
       <Container className="footer-con">
-        <Row className="gy-4">
-          <Col md={3}>
-            <h1 className="fw-bold">MERDEKA</h1>
-            <h1 className="fw-bold">SAMA</h1>
+        <Row className="foot">
+          <Col>
+            <h1>MERDEKA</h1>
+            <h1>SAMA</h1>
           </Col>
-
-          <Col md={3}>
-            <h5 className="fw-bold">Tentang Kami</h5>
+          <Col>
+            <h1>Merdeka Sama</h1>
             <p>
-              Perusahaan yang ahli dalam bidang percetakan, dengan tenaga kerja profesional yang siap membantu Anda dalam berbagai kebutuhan cetak dan lainnya.
+              Perusahaan yang ahli dalam bidang percetakan yang memiliki tenaga
+              kerja yang profesional yang dapat membantu anda dalam bidang
+              percetakan dan lain"
             </p>
           </Col>
 
-          <Col md={3}>
-            <h5 className="fw-bold">Informasi Kontak</h5>
-            <div className="d-flex mb-3">
-              <img src={placeholderIcon} alt="Office" width="30" height="30" className="me-2" />
+          <Col>
+            <h1>Informasi Kontak</h1>
+            <p>Hubungi kami untuk Informasi lebih lanjut</p>
+
+            <div className="fot d-flex">
+              <div className="d-flex text-align-left">
+                <img
+                  src={PlaceholderIcon}
+                  alt=""
+                  width="30"
+                  height="30"
+                />
+              </div>
               <div>
-                <h6 className="mb-0">Office</h6>
-                <p className="mb-0">Jl. H. Yahya No.7 Otista Raya, Jakarta Timur</p>
+                <h6>Office</h6>
+                <p>JL. H. Yahya No.7 Otista Raya - Jakarta Timur</p>
               </div>
             </div>
 
-            <div className="d-flex mb-3">
-              <img src={placeholderIcon} alt="Workshop" width="30" height="30" className="me-2" />
+            <div className="fot d-flex">
+              <div className="d-flex text-align-left">
+                <img
+                  src={PlaceholderIcon}
+                  alt=""
+                  width="30"
+                  height="30"
+                />
+              </div>
               <div>
-                <h6 className="mb-0">Workshop</h6>
-                <p className="mb-0">Jl. Wedana No. 13A Otista Raya, Jakarta Timur</p>
+                <h6>Workshop</h6>
+                <p>JL. Wedana No. 13A Otista Raya - Jakarta Timur</p>
               </div>
             </div>
 
-            <div className="d-flex mb-3">
-              <img src={callIcon} alt="Phone" width="30" height="30" className="me-2" />
+            <div className="fot d-flex">
+              <div className="d-flex text-align-left">
+                <img src={CallIcon} alt="" width="30" height="30" />
+              </div>
               <div>
-                <h6 className="mb-0">Telepon</h6>
-                <p className="mb-0">021-8190802</p>
+                <h6>Phone</h6>
+                <p>021-8190802</p>
               </div>
             </div>
 
-            <div className="d-flex">
-              <img src={emailIcon} alt="Email" width="30" height="30" className="me-2" />
+            <div className="fot d-flex">
+              <div className="d-flex text-align-left">
+                <img
+                  src={MessageIcon}
+                  alt=""
+                  width="30"
+                  height="30"
+                />
+              </div>
               <div>
-                <h6 className="mb-0">Email</h6>
-                <p className="mb-0">merdeka_sm@yahoo.com</p>
+                <h6>Email</h6>
+                <p>merdeka_sm@yahoo.com</p>
               </div>
             </div>
           </Col>
 
-          <Col md={3}>
-            <h5 className="fw-bold">Navigasi</h5>
-            <div className="d-grid gap-2">
-              <a href="/">Beranda</a>
+          <Col className="lainnya">
+            <h1>Lainnya</h1>
+            <div className="d-grid">
+              <a href="">Beranda</a>
               <a href="/profil">Profil</a>
               <a href="/portofolio">Portofolio</a>
               <a href="/kontak">Kontak</a>
@@ -66,14 +91,12 @@ const FooterComponent = () => {
           </Col>
         </Row>
 
-        <hr className="my-4" />
-
-        <div className="d-flex justify-content-between small">
-          <p className="mb-0">&copy; 2023 - CV Merdeka Sama</p>
-          <p className="mb-0">Developed by anak soleh</p>
+        <div className="d-flex justify-content-between">
+          <h6>&copy; Copyright 2023 - CV Merdeka Sama</h6>
+          <h6>Developed by anak soleh</h6>
         </div>
       </Container>
-    </footer>
+    </div>
   );
 };
 
