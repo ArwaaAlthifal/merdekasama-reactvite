@@ -109,7 +109,7 @@ const Kontak = () => {
           </div>
           <div className='footkon-btn text-center align-items-center justify-content-center pt-5 d-flex'>
             <button><img className="me-2 " src={WhatsappIcon} width="30" alt="" />Whatsapp Kami</button>
-            <button className='bg-danger'><img className="me-2 " src="src/assets/message.png" width="30" alt="" />Email Kami</button>
+            <button className='bg-danger'><img className="me-2 " src={MessageIcon} width="30" alt="" />Email Kami</button>
           </div>
         </section>
     </div>
