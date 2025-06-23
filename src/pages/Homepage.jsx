@@ -7,10 +7,10 @@ import { Pagination } from "swiper/modules";
 
 import heroImg from "../assets/hero.png";
 import manImg from "../assets/man.png";
-import kantor1 from "../assets/kantor1.jpg";
-import kantor2 from "../assets/kantor2.jpg";
-import kantor3 from "../assets/kantor3.jpg";
-import kantor4 from "../assets/kantor4.jpg";
+import kantor1 from "../assets/kantor1.JPG";
+import kantor2 from "../assets/kantor2.JPG";
+import kantor3 from "../assets/kantor3.JPG";
+import kantor4 from "../assets/kantor4.JPG";
 import line from "../assets/line.png";
 import whatsapp from "../assets/whatsapp.png";
 import delivery from "../assets/delivery.png";
