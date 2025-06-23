@@ -3,6 +3,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import Form from "react-bootstrap/Form";
 import { ContactUs } from './Contact';
 import InputGroup from "react-bootstrap/InputGroup";
+import PlaceholderIcon from "../assets/placeholder.png";
+import CallIcon from "../assets/call.png";
+import MessageIcon from "../assets/message.png";
+import LineIcon from "../assets/line.png";
+import WhatsappIcon from "../assets/whatsapp.png";
 const Kontak = () => {
   const form = useRef();
 
@@ -32,7 +37,7 @@ const Kontak = () => {
               <div className="fot d-flex mb-3">
                 <div className="d-flex text-align-left">
                   <img
-                    src="src/assets/placeholder.png"
+                    src={PlaceholderIcon}
                     alt=""
                     width="30"
                     height="30"
@@ -47,7 +52,7 @@ const Kontak = () => {
               <div className="fot d-flex mb-3">
                 <div className="d-flex text-align-left">
                   <img
-                    src="src/assets/placeholder.png"
+                    src={PlaceholderIcon}
                     alt=""
                     width="30"
                     height="30"
@@ -62,7 +67,7 @@ const Kontak = () => {
               <div className="fot d-flex mb-3">
                 <div className="d-flex text-align-left">
                   <img
-                    src="src/assets/call.png"
+                    src={CallIcon}
                     alt=""
                     width="30"
                     height="30"
@@ -77,7 +82,7 @@ const Kontak = () => {
               <div className="fot d-flex mb-3">
                 <div className="d-flex text-align-left">
                   <img
-                    src="src/assets/message.png"
+                    src={MessageIcon}
                     alt=""
                     width="30"
                     height="30"
@@ -103,7 +108,7 @@ const Kontak = () => {
             <img className="m-0 p-0" src="src/assets/line.png" width="100" alt="" />
           </div>
           <div className='footkon-btn text-center align-items-center justify-content-center pt-5 d-flex'>
-            <button><img className="me-2 " src="src/assets/whatsapp.png" width="30" alt="" />Whatsapp Kami</button>
+            <button><img className="me-2 " src={WhatsappIcon} width="30" alt="" />Whatsapp Kami</button>
             <button className='bg-danger'><img className="me-2 " src="src/assets/message.png" width="30" alt="" />Email Kami</button>
           </div>
         </section>
