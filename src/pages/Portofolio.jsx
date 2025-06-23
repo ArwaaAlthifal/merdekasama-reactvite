@@ -10,7 +10,7 @@ const Portofolio = () => {
         <Row>
           <Col>
             <h1 className="text-center fw-bold fs-2">Portofolio</h1>
-            <p className="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe hic iusto quisquam similique dolorem est deleniti cum quaerat illum ipsam officiis necessitatibus a, vitae itaque, impedit reiciendis nulla officia sint?</p>
+            <p className="text-center">CV Merdeka Sama telah berpengalaman dalam menangani berbagai proyek percetakan untuk instansi pemerintah maupun swasta. Kami menghadirkan hasil cetak dengan kualitas tinggi, ketepatan waktu, dan harga yang kompetitif. Portofolio kami mencakup produk seperti majalah, buku, banner, map, blanko, dan media cetak lainnya. Kepercayaan klien adalah komitmen kami, dan setiap proyek dikerjakan dengan standar profesionalisme terbaik.</p>
           </Col>
         </Row>
         <Row>

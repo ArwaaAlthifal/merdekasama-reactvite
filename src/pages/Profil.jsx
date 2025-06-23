@@ -15,7 +15,7 @@ const Profil = () => {
           <Row className="prof-box d-flex align-items-center">
             <Col>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, iusto earum! Culpa unde velit ullam illo commodi omnis quae harum, ratione molestiae delectus qui expedita veritatis eligendi vitae totam eveniet nesciunt nihil amet maxime dolorum dignissimos sunt magni corporis cumque. Reiciendis tempore doloribus, voluptatum enim natus, praesentium est architecto adipisci maiores dolor deserunt assumenda ipsa quos voluptate impedit, cumque ullam.
+                CV Merdeka Sama adalah perusahaan yang bergerak di bidang percetakan dengan pengalaman melayani berbagai kebutuhan cetak dari instansi pemerintahan, perusahaan swasta, hingga lembaga pendidikan. Kami mengedepankan kualitas, ketepatan waktu, dan pelayanan terbaik sebagai komitmen utama dalam setiap pekerjaan. Dengan dukungan tim profesional dan peralatan modern, kami siap menjadi mitra terpercaya dalam setiap kebutuhan cetak Anda.
               </p>
             </Col>
             <Col className="prof-set d-grid-column align-items-center">
