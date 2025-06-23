@@ -28,7 +28,7 @@ const Homepage = () => {
               </button>
             </Col>
             <Col lg="6" className="pt-lg-0 pt-5">
-              <img src="src/assets/hero.png" alt="" />
+              <img src="../assets/hero.png" alt="" />
             </Col>
           </Row>
         </Container>
@@ -38,7 +38,7 @@ const Homepage = () => {
         <Container className="land-2-box d-flex align-items-center ">
           <Row >
             <Col>
-              <img src="src/assets/man.png" alt="" />
+              <img src="../assets/man.png" alt="" />
             </Col>
           </Row>
           <Row>
@@ -79,16 +79,16 @@ const Homepage = () => {
         <Container>
           <Row className="land-4-box align-items-center ">
             <Col className="about text-center" lg={6}>
-              <img src="src/assets/kantor1.jpg" width="200" alt="" />
-              <img src="src/assets/kantor2.jpg" width="200" alt="" />
-              <img src="src/assets/kantor3.jpg" width="200" alt="" />
-              <img src="src/assets/kantor4.jpg" width="200" alt="" />
+              <img src="../assets/kantor1.jpg" width="200" alt="" />
+              <img src="../assets/kantor2.jpg" width="200" alt="" />
+              <img src="../assets/kantor3.jpg" width="200" alt="" />
+              <img src="../assets/kantor4.jpg" width="200" alt="" />
             </Col>
             <Col lg={6}>
             <h1>Tentang Kami</h1>
               <img
                 className="line"
-                src="src/assets/line.png"
+                src="../assets/line.png"
                 width="80"
                 alt=""
               />
@@ -156,7 +156,7 @@ const Homepage = () => {
         <a className="btn mt-3 btn-success rounded-3">
           <img
             className="me-2"
-            src="src/assets/whatsapp.png"
+            src="../assets/whatsapp.png"
             width="30"
             alt=""
           />Pesan Sekarang
@@ -172,7 +172,7 @@ const Homepage = () => {
           <Row className="land-6-box d-flex align-items-center justify-content-center">
             <Col className="d-flex-column">
               <h1>Konsultasikan Kebutuhan Anda</h1>
-              <img src="src/assets/line.png" width="80" alt="" />
+              <img src="../assets/line.png" width="80" alt="" />
               <p>
               Kami siap memberikan pilihan & solusi terbaik untuk cetakan pada perusahaan Anda. Kita bisa berkomunikasi melalui Telephone,  WhatsApp, Zoom Meeting ataupun mengunjungi langsung (Visit) perusahaan Bapak/Ibu untuk membicarakan berbagai kebutuhan.
               </p>
@@ -180,7 +180,7 @@ const Homepage = () => {
             <Col className="land-6-content align-items-center justify-content-center">
               <div className="cont align-items-center justify-content-center mb-5">
                 <div className="text-center">
-                  <img className="good" src="src/assets/delivery.png" width="80px" alt="" />
+                  <img className="good" src="../assets/delivery.png" width="80px" alt="" />
                 </div>
                 <div>
                   <div>
@@ -198,7 +198,7 @@ const Homepage = () => {
               </div>
               <div className="cont align-items-center justify-content-center mb-5">
                 <div className="text-center">
-                  <img className="good " src="src/assets/process.png" width="80px" alt="" />
+                  <img className="good " src="../assets/process.png" width="80px" alt="" />
                 </div>
                 <div>
                     <h1>02 Pengerjaan</h1>
@@ -214,7 +214,7 @@ const Homepage = () => {
               </div>
               <div className="cont align-items-center justify-content-center mb-5">
                 <div className="text-center">
-                  <img className="good" src="src/assets/truck.png" width="80px" alt="" />
+                  <img className="good" src="../assets/truck.png" width="80px" alt="" />
                 </div>
                 <div>
                   <div>
