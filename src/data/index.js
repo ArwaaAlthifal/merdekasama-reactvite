@@ -1,7 +1,7 @@
 import People1 from "../assets/majalah.png";
 import People2 from "../assets/buku.png";
 import People3 from "../assets/banner.png";
-import People4 from "../assets/papperbag.png";
+import People4 from "../assets/papperbag.jpg";
 import People5 from "../assets/yasin.jpg";
 // import People3 from "../assets/banner.png";
 // import People3 from "../assets/banner.png";
