@@ -1,4 +1,10 @@
 import { kelasTerbaru, dataSwiper, kenapaKami } from "../data";
+import kantor1 from "../assets/kantor1.png";
+import kantor2 from "../assets/kantor2.png";
+import kantor3 from "../assets/kantor3.png";
+import kantor4 from "../assets/kantor4.png";
+import heroImg from "../assets/hero.png";
+
 import { Container, Row, Col } from "react-bootstrap";
 const Profil = () => {
   return (
@@ -13,10 +19,10 @@ const Profil = () => {
               </p>
             </Col>
             <Col className="prof-set d-grid-column align-items-center">
-              <img src="src/assets/kantor1.jpg" width="280" alt="" />
-              <img src="src/assets/kantor1.jpg" width="280" alt="" />
-              <img src="src/assets/kantor1.jpg" width="280" alt="" />
-              <img src="src/assets/kantor1.jpg" width="280" alt="" />
+              <img src={kantor1} width="280" alt="" />
+              <img src={kantor2} width="280" alt="" />
+              <img src={kantor3} width="280" alt="" />
+              <img src={kantor4} width="280" alt="" />
             </Col>
           </Row>
         </Container>
@@ -25,7 +31,7 @@ const Profil = () => {
       <section className="prof-2 w-100 py-5 px-5 justify-content-center align-items-center">
         <Row className="prof-2-box justify-content-center align-items-center">
           <Col lg={6} className="text-center px-0">
-            <img className="text-center" src="src/assets/hero.png" width="100%" alt="" />
+            <img className="text-center" src={heroImg} width="100%" alt="" />
           </Col>
           <Col lg={6} className="pe-5 ps-0 justify-content-center align-items-center">
             <h1 className="text-center mb-3 fw-bold fs-2">VISI</h1>
