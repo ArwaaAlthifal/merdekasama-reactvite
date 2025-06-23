@@ -1,6 +1,8 @@
 import People1 from "../assets/majalah.png";
 import People2 from "../assets/buku.png";
 import People3 from "../assets/banner.png";
+import People4 from "../assets/papperbag.png";
+import People5 from "../assets/yasin.jpg";
 // import People3 from "../assets/banner.png";
 // import People3 from "../assets/banner.png";
 // import People3 from "../assets/banner.png";
@@ -183,23 +185,17 @@ export const navLinks = [
     {
       id: 4,
       desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-      image: People1,
-      skill: "UI UX Designer",
+      image: People4,
+      skill: "Papper bag",
     },
     {
       id: 5,
       desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-      image: People2,
+      image: People5,
       name: "People 5",
-      skill: "Flutter Developer",
+      skill: "Yasin",
     },
-    {
-      id: 6,
-      desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-      image: People3,
-      name: "People 6",
-      skill: "Web Developer",
-    },
+    
   ];
   
 export const dataClient = [
