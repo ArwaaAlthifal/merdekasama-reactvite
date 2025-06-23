@@ -478,7 +478,7 @@ header {
 
   .portofolio .row:nth-child(1) h1,
   .portofolio .row:nth-child(1) p{
-    color: var(--color-text);
+    color: #ffffff;
   } 
 
   .portofolio .row:nth-child(2) {
