@@ -52,7 +52,14 @@ const NavbarComponent = () => {
             </Nav>
 
             <div className="text-center">
-              <button className="btn">Pesan Sekarang</button>
+              <a
+                href="https://wa.me/6281398153149" // Ganti dengan nomor WhatsApp kamu
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn"
+                >
+                Pesan Sekarang
+              </a>
             </div>
           </Navbar.Collapse>
         </Container>
