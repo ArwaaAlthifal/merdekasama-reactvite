@@ -195,7 +195,13 @@ export const navLinks = [
       name: "People 5",
       skill: "Yasin",
     },
-    
+    {
+      id: 6,
+      desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
+      image: People3,
+      name: "People 6",
+      skill: "Web Developer",
+    },
   ];
   
 export const dataClient = [
